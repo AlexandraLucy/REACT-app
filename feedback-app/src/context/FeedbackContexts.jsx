@@ -64,7 +64,7 @@ export function FeedbackProvider({children}) {
     }
 
     return(
-        <FeedbackContexts.Provider  value={{
+        <FeedbackContexts.Provider value = {{
             feedback,
             feedbackEdit,
             addFeedback,
